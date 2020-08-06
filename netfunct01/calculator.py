@@ -18,11 +18,9 @@ print("Select below:\n" \
       "2. Subtract\n" \
       "3. Multiply\n" \
       "4. Divide\n")
-
+message = int(input("What would you like to do? 1, 2, 3, ,4 :"))
 int1= float(input("Choose a number: "))
 int2= float(input("Choose a second number: "))
-
-message = int(input("What would you like to do? 1, 2, 3, ,4 :"))
 
 if message == 1:
     print(int1 + int2)
